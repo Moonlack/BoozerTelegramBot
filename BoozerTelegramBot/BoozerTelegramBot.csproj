@@ -167,6 +167,7 @@
     <Compile Include="Models\Bot.cs" />
     <Compile Include="Models\Commands\Command.cs" />
     <Compile Include="Models\Commands\HelloComand.cs" />
+    <Compile Include="Models\Commands\NaHooyCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

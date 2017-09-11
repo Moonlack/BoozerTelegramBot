@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Threading;
+﻿using System.Collections.Generic;
 
 using Telegram.Bot;
-using BoozerTelegramBot.Models.Commands;
 using System.Threading.Tasks;
+using BoozerTelegramBot.Models.Commands;
 
 namespace BoozerTelegramBot.Models
 {
@@ -28,7 +24,7 @@ namespace BoozerTelegramBot.Models
             commandsList.Add(new HelloCommand());
             //TODO: Add more commands
 
-            client = new TelegramBotClient(AppSettings.Token);
+            client = new TelegramBotClient(AppSettings.Key);
             var hook = string.Format(AppSettings.Url, "api/message/update");
             await client.SetWebhookAsync(hook);
 

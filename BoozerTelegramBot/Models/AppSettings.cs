@@ -7,9 +7,9 @@ namespace BoozerTelegramBot.Models
 {
     public static class AppSettings
     {
-        public static string Url { get; set; } = "http://boozertelegrambot20170911021335.azurewebsites.net";
+        public static string Url { get; set; } = "https://boozertelegrambot20170911021335.azurewebsites.net/";
 
-        public static string Token { get; set; } = "447488796:AAEF4osToR6MCDtBfHez7oNjzL5YkGZ9mkI";
+        public static string Key { get; set; } = "447488796:AAEF4osToR6MCDtBfHez7oNjzL5YkGZ9mkI";
 
         public static string Name { get; set; } = "CrazyBoozerBot";
     }
